@@ -6,6 +6,6 @@ class Lambo() : TwoDoorCar("red", 4) {
     }
 
     override fun drive() {
-        TODO("Not yet implemented")
+        println("Lamborghini is driving fast")
     }
 }

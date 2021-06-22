@@ -2,5 +2,13 @@ package caster.abstract
 
 fun main() {
     val lambo = Lambo()
-    var hatchBackCar = HatchBackCar("blue", 4, 2)
+    val hatchBackCar = HatchBackCar("blue", 4, 2)
+
+    driveVehicle(lambo)
+    driveVehicle(hatchBackCar)
+
+}
+
+fun driveVehicle(vehicle: Vehicle) {
+    vehicle.drive()
 }

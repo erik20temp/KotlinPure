@@ -6,6 +6,6 @@ class HatchBackCar(
     numOfDoors: Int
 ) : Vehicle(color, numOfWheels, numOfDoors) {
     override fun drive() {
-        TODO("Not yet implemented")
+        println("HatchBack is driving slow")
     }
 }
