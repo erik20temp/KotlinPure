@@ -17,10 +17,13 @@ fun main() {
     println(name)
     sleep(500)
     println(name)
+
     sleep(2500)
     val result = lazy { expensiveOperation() }
     println(result)
     println("Is Initialized: ${result.isInitialized()}")
+    println(result.value)
+    println(result.value)
     println(result.value)
 }
 

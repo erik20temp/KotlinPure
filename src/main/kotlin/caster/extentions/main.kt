@@ -9,7 +9,7 @@ fun main() {
 
     val person = Person("Bartek", "Wyka", 25)
     val fullName = person.fullName()
-    val adult: String = if (age.isAdult()) "yes" else "no"
+    val adult = if (age.isAdult()) "yes" else "no"
 
     println("$fullName initials: ${fullName.initials()} is adult: $adult")
 }
